@@ -15,3 +15,26 @@ if(n<=30){
 }
 
 
+
+
+/*leap year*/
+
+function isLeap(year){
+if(year%4==0){
+    if(year%100===0){
+        if(year%400===0){
+            return "Leap year";
+        }else{
+            return "not leap year";
+        }
+        return "Leap year";
+    }else{
+    return "not leap year";
+}
+}else{
+    return "not leap year";
+}           
+}
+
+document.write(isLeap(2000)+"<br>");
+document.write(isLeap(2001)+"<br>");
