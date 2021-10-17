@@ -36,8 +36,8 @@ if(year%4==0){
 }           
 }
 
-document.write(isLeap(2000)+"<br>");
-document.write(isLeap(2001)+"<br>");
+console.log(isLeap(2000)+"<br>");
+console.log(isLeap(2001)+"<br>");
 
 
 let names=["Anjela","Jack", "pan", "James", "Lara", "Jason"];
